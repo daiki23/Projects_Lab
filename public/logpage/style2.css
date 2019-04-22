@@ -1,0 +1,139 @@
+
+body{
+	margin: 0;
+	padding: 0;
+	background: url(bromo.jpg);
+	/*background-size: cover;
+	background-position: center;
+	*/font-family: sans-serif;
+}
+
+.login-box{
+	width: 320px;
+	height: 520px;
+	background: rgba(0,0,0,0.5);
+	color: #fff;
+	top:50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+
+.avatar{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50px);
+}
+
+h1{
+	margin: 0;
+	padding:0 0 10px;
+	text-align: center;
+	font-size: 22px;
+}
+
+.login-box p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+.login-box input{
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.login-box input[type="text"], input[type="password"], input[type="email"],input[type="tel"],input[type="reset"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+
+.login-box input[type="submit"]
+{
+	border: none;
+    outline: none;
+    height: 35px;
+    width: 150px;
+    background: #1c8adb;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px;
+    float: right;
+}
+
+
+.login-box input[type="submit"]:hover
+{
+	text-decoration: none;
+	font-size: 18px;
+	background: #39dc79;
+	color: #000;
+}
+
+.login-box a{
+	text-decoration: none;
+	font-size: 15px;
+	color: #fff;
+}
+
+.login-box p{
+	text-decoration: none;
+	font-size: 15px;
+	color: #fff;	
+}
+
+.login-box a:hover{
+	color: #39dc79;
+}
+
+.alert {
+	text-align: center;
+    border-radius: 3px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-bottom: 10px;
+}
+
+.alert alert-succes{
+    background-color: #39dc79;
+}
+
+.alert alert-fail{
+    background-color: #d9534f;
+}
+
+@font-face {
+  font-family: primetime;
+  src: url(font/PRIMETIME.ttf);
+}
+
+@font-face {
+  font-family: lemonmilk;
+  src: url(font/LemonMilklight.otf);
+}
+
+@font-face {
+  font-family: teks;
+  src: url(font/Beillingsday.otf);
+}
+
+@font-face {
+  font-family: BigNoodleTitling;
+  src: url(font/big_noodle_titling.ttf);
+}
+
+@font-face {
+  font-family: BreeSerif-Regular;
+  src: url(font/BreeSerif-Regular.otf);
+}
